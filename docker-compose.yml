@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  linux:
+    build:
+      context: ./
+    container_name: linux
+    tty: true
+    volumes:
+      - ./src:/usr/src
+    working_dir: /usr/src
+    tty: true
