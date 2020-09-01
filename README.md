@@ -1,5 +1,5 @@
 ## Linuxコンテナに入る
-```docker run --rm -it centos:centos7 /bin/bash```
+```docker-compose run linux bash```
 
 ## コマンド
 ### touch -d '2020/08/25'
