@@ -9,3 +9,5 @@ services:
       - ./src:/usr/src
     working_dir: /usr/src
     tty: true
+    environment: 
+      TZ: 'Asia/Tokyo'
